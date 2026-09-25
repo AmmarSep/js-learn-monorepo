@@ -1,0 +1,21 @@
+{
+  "name": "js-learn-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A topic-based JavaScript learning path with runnable examples, practice, and an optional UI5 track.",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node practice/01-hello-world/hello.js",
+    "lesson:01": "node practice/01-hello-world/hello.js",
+    "lesson:01:exercises": "node practice/01-hello-world/exercises.js",
+    "lesson:01:solutions": "node practice/01-hello-world/solutions.js",
+    "demo:node": "node curriculum/00-getting-started/examples/01_node.js",
+    "demo:engine": "node curriculum/00-getting-started/examples/02_engine_demo.js",
+    "demo:ui5": "node projects/ui5-style/simple-ui5-like-app.js"
+  },
+  "keywords": ["javascript", "java", "tutorial", "learning", "node"],
+  "license": "MIT"
+}
